@@ -6,7 +6,7 @@ CORS(app)
 
 @app.route('/')
 def home():
-    return jsonify(message='Welcome to the Flask backend!')
+    return jsonify(message='Welcome to the LMS backend!')
 
 if __name__ == '__main__':
     app.run(debug=True)
