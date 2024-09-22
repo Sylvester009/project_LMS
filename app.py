@@ -6,7 +6,7 @@ CORS(app)
 
 @app.route('/')
 def home():
-    return jsonify(message='Welcome to the LMS backend!')
+    return jsonify(message='Welcome to the LMS visitor page(landing page)')
 
 if __name__ == '__main__':
     app.run(debug=True)
